@@ -1,0 +1,33 @@
+extends ./layout/index
+
+block contenido
+   main.container.mt-5 
+        .row 
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+
+                blockquote Lorem ipsum dolor sit amet, vel sodales dui sem id purus. Nulla in lectus vestibulum, suscipit ligula sed, pharetra arcu. Phasellus vel lectus libero. Quisque ornare risus vitae ex luctus dapibus. Sed molestie magna ut pharetra semper. Maecenas est augue, porttitor feugiat pellentesque ut, malesuada nec neque. Quisque at massa tempor, ultrices nulla eget, auctor est.
+
+                p Aenean vehicula purus justo, non scelerisque dui dictum sed. Nunc pretium non ex quis ullamcorper. Sed blandit auctor purus eget egestas. Vivamus vel lorem sed odio sagittis mollis. Aenean eget felis faucibus, semper ligula eu, accumsan turpis. Vivamus vel eros consectetur, porta urna vitae, tempus ligula. Mauris ac leo sit amet sapien bibendum porta.  
+
+                p Nullam nec pretium justo. Aliquam maximus magna a sodales eleifend. Maecenas aliquet ligula orci, ac convallis augue dignissim ac. Cras a efficitur eros. Mauris at scelerisque odio, ac aliquet felis. Nullam quis nunc ac nisi luctus imperdiet. Vestibulum nec posuere eros. Integer eu nulla vel nibh sollicitudin pulvinar.
+    
+        .listado-iconos
+            .container.mt-5.py-5.text-center
+                .row
+                    .col-md-4
+                        img(src="img/icono_seguridad.svg", alt="icono seguridad",class="img-fluid mb-4")
+                        h2.mb-4 Seguridad
+                        p Nullam nec pretium justo. Aliquam maximus magna a sodales eleifend. Maecenas aliquet ligula orci, ac convallis augue dignissim ac.
+
+                    .col-md-4
+                        img(src="img/icono_destinos.svg", alt="icono destinos",class="img-fluid mb-4")
+                        h2.mb-4 Mejores Destinos
+                        p Nullam nec pretium justo. Aliquam maximus magna a sodales eleifend. Maecenas aliquet ligula orci, ac convallis augue dignissim ac.
+
+                    .col-md-4
+                        img(src="img/icono_precios.svg", alt="icono precios",class="img-fluid mb-4")
+                        h2.mb-4 Los Mejores Precios
+                        p Nullam nec pretium justo. Aliquam maximus magna a sodales eleifend. Maecenas aliquet ligula orci, ac convallis augue dignissim ac.
