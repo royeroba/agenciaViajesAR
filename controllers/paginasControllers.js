@@ -31,7 +31,6 @@ const paginaNosotros = (req, res) => {
 const paginaViajes = async (req, res) => {
   //consultar BD
   const viajes = await Viaje.findAll();
-  console.log(viajes);
 
   res.render("viajes", {
     pagina: "Proximos Viajes",
